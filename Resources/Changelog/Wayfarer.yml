@@ -5147,3 +5147,135 @@ Entries:
   id: 7092
   time: '2026-07-05T21:16:32.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1297
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: Redone Zekke Credits.
+  id: 7093
+  time: '2026-07-05T20:44:50.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1278
+- author: Possumongus
+  changes:
+    - type: Add
+      message: The GGG Manta! Go mine gas in style
+  id: 7094
+  time: '2026-07-05T20:44:32.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1272
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Anomaly infections can no longer gib players, instead dealing damage.
+  id: 7095
+  time: '2026-07-05T20:44:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1244
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added a Vox Buckler variant!
+  id: 7096
+  time: '2026-07-05T20:42:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1287
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: CGP Buckler's small gyro has been replaced with a default size gyro.
+    - type: Tweak
+      message: CGP Ships now follow standard decal colors.
+  id: 7097
+  time: '2026-07-05T20:45:22.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1286
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: upstream ship guides under correct shipyards.
+  id: 7098
+  time: '2026-07-05T20:39:14.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1288
+- author: Goodfaun
+  changes:
+    - type: Tweak
+      message: >-
+        allows more plushies into safetyboxes, Block holopick into safetybox,
+        blocks contraband
+  id: 7099
+  time: '2026-07-05T20:38:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1296
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: Changed all NFSD airlocks to CGP colors!
+    - type: Tweak
+      message: Changed CGP airlocks to variant CGP colors!
+    - type: Tweak
+      message: Changed large NFSD thrusters to CGP colors!
+    - type: Tweak
+      message: Changed CGP thrusters to variant CGP colors!
+    - type: Tweak
+      message: Changed all NFSD racks to CGP colors!
+    - type: Tweak
+      message: Changed all NFSD forms to CGP colors!
+    - type: Tweak
+      message: Changed all NFSD holsters to CGP colors!
+    - type: Tweak
+      message: Changed all NFSD messenger bags to CGP colors!
+    - type: Tweak
+      message: Changed NFSD board to CGP colors!
+    - type: Tweak
+      message: Changed NFSD encryption key to CGP colors!
+    - type: Tweak
+      message: Changed NFSD shipyard to CGP colors!
+    - type: Tweak
+      message: Changed NFSD pouch to CGP colors!
+    - type: Tweak
+      message: Changed NFSD bodycam to CGP!
+    - type: Tweak
+      message: Changed vendor NFSD flashlight for seclite!
+    - type: Tweak
+      message: Changed an NFSD poster to fall in line with CGP!
+  id: 7100
+  time: '2026-07-05T20:39:55.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1285
+- author: TheSlapper
+  changes:
+    - type: Tweak
+      message: Added character count to the communications console.
+    - type: Tweak
+      message: Alert level announcements can now be given a reason.
+    - type: Tweak
+      message: Alert level announcements above green now repeat every hour.
+    - type: Tweak
+      message: Character limit on communications console has increased to 500.
+    - type: Tweak
+      message: The reason given for an alert now displays on the PDA.
+  id: 7101
+  time: '2026-07-05T20:41:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1291
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Moved the medical shipyard one room below.
+    - type: Tweak
+      message: Added a public medical bounty redemption pod to that room.
+    - type: Add
+      message: Adds a proper crew monitoring console to the medical break room.
+    - type: Fix
+      message: Fixed a non-POI vendor in dusk.
+  id: 7102
+  time: '2026-07-05T20:40:11.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1281
+- author: Luweth
+  changes:
+    - type: Fix
+      message: Fixed dumb crew manifest issue with certain IDs.
+  id: 7103
+  time: '2026-07-02T03:13:56.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1273
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Jobs are now reopened if they are limited jobs and the person in that
+        job has been away for longer than two hours.
+  id: 7104
+  time: '2026-07-02T03:13:24.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1270
