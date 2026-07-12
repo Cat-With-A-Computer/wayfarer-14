@@ -94,6 +94,7 @@
   - ClothingMaskGasSecurity # Wayfarer
   - WFContrabandForensicsModule # Wayfarer
   - WFForensicScanner # Wayfarer
+  - PinpointerUniversalNF # Wayfarer
 
 - type: latheRecipePack
   id: NfsdTargetsStatic
@@ -148,6 +149,7 @@
   - WFGrenadeHEAT
   - WFMagazineGrenadeHEAT
   - NFGrenadeEMP
+  - WFCartridgeRocketEmp
   - NFMagazineGrenadeEMP
   - ArmorPlateLight
   - ArmorPlateMedium

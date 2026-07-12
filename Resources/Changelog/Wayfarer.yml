@@ -5279,3 +5279,149 @@ Entries:
   id: 7104
   time: '2026-07-02T03:13:24.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1270
+- author: DevArchwave
+  changes:
+    - type: Remove
+      message: Removed all misfits AI changes.
+    - type: Fix
+      message: >-
+        Mobs should no longer remain in an "alive" state after dying, or be able
+        to use abilities after dying.
+  id: 7105
+  time: '2026-07-08T03:55:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1301
+- author: Possumongus
+  changes:
+    - type: Add
+      message: New rule in section D1. read it
+  id: 7106
+  time: '2026-07-09T02:33:26.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1320
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added Corpsman pouch to Corpsman!
+    - type: Add
+      message: Pinpointers to CGP vendors and techfab.
+    - type: Add
+      message: Alt CGP headsets to vendor.
+    - type: Fix
+      message: CGP holster names.
+  id: 7107
+  time: '2026-07-09T02:34:19.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1319
+- author: Possumongus
+  changes:
+    - type: Tweak
+      message: Changed outlaw uplink ammo to be slightly less pricier, slightly better.
+  id: 7108
+  time: '2026-07-09T02:34:54.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1318
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: 10 ship vouchers to the PTech that can be used to purchase buoys.
+  id: 7109
+  time: '2026-07-09T02:35:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1317
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: Changed a few doors and decals on Buckler-V!
+    - type: Fix
+      message: Fixed Buckler-V Extinguisher locker!
+  id: 7110
+  time: '2026-07-09T02:37:20.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1314
+- author: Possumongus
+  changes:
+    - type: Tweak
+      message: Added more oxygen to ice asteroids
+    - type: Tweak
+      message: Buffed gas drill speed
+    - type: Tweak
+      message: Added more oxygen to oxygen deposits. and a ton more c02
+  id: 7111
+  time: '2026-07-09T02:41:00.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1310
+- author: gaywolfgirl6
+  changes:
+    - type: Tweak
+      message: Oni Melee Blunt Damage, Melee Asphyx Damage.
+  id: 7112
+  time: '2026-07-12T01:56:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1336
+- author: Goodfaun
+  changes:
+    - type: Tweak
+      message: added more stomachs for sausage recipes
+  id: 7113
+  time: '2026-07-12T01:57:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1335
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added stamina resist to high-tier outlaw hardsuits!
+    - type: Add
+      message: Added stamina resist to CGP combat hardsuits!
+    - type: Tweak
+      message: CGP combat hardsuit speed reduction lowered slightly.
+  id: 7114
+  time: '2026-07-12T01:58:12.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1334
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Added "Clown Music" to the jukebox.
+  id: 7115
+  time: '2026-07-12T01:59:08.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1331
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added redone PDA UI for CGP PDAs!
+    - type: Add
+      message: Added contraband forensic module to CGP vendor.
+    - type: Add
+      message: Added GR-44E EMP grenades to CGP techfab.
+    - type: Tweak
+      message: Doubled number of forensic scanner in CGP vendor.
+    - type: Tweak
+      message: Changed CGP command stamps to CGP colors!
+    - type: Tweak
+      message: Changed NFSD to CGP on CGP vendors!
+    - type: Tweak
+      message: Changed price of CGP webbing to be same as belt!
+    - type: Fix
+      message: Fixed broken ID prototype for Senior Peacekeeper!
+    - type: Fix
+      message: Fixed back item loadouts for CGP command staff!
+  id: 7116
+  time: '2026-07-12T02:22:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1328
+- author: sacafe
+  changes:
+    - type: Tweak
+      message: >-
+        adjusted a few things on the Freebird that were missed during the inital
+        build (door bolts, thruster buttions, rework of solar arrays, moved
+        condenser into a flat pack, vending machine instead of its poster) 
+  id: 7117
+  time: '2026-07-12T02:23:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1327
+- author: DevArchwave
+  changes:
+    - type: Remove
+      message: Death acidifiers and bomb implants have been removed from loot tables.
+  id: 7118
+  time: '2026-07-12T02:25:00.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1323
+- author: DevArchwave
+  changes:
+    - type: Fix
+      message: >-
+        Other Dusk Jobs should no longer have their titles overwritten to
+        "Captain" on ship purchase.
+  id: 7119
+  time: '2026-07-12T02:26:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1321
