@@ -16,6 +16,7 @@
   # Wayfarer Ships
   - ShipyardHammerhead
   - ShipyardMedivac
+  - ShipyardVelios
 
 - type: guideEntry
   id: ShipyardAkupara

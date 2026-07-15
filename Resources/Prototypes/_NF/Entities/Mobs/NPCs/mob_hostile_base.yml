@@ -130,7 +130,7 @@
     - type: Pacified
     removeComponentsReturnGrid:
     - type: TimedDespawn
-#    - type: PassiveDamage # Wayfarer
+    - type: PassiveDamage
     - type: Pacified
 
 - type: entity

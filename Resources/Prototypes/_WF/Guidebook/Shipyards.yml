@@ -202,6 +202,11 @@
   text: "/ServerInfo/_WF/Guidebook/Shipyard/ExpedShipyard/Kobold.xml"
 
 - type: guideEntry
+  id: ShipyardVelios
+  name: guide-entry-shipyard-velios
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/MedShipyard/Velios.xml"
+
+- type: guideEntry
   id: ShipyardVeliola
   name: guide-entry-shipyard-veliola
   text: "/ServerInfo/_WF/Guidebook/Shipyard/OutlawShipyard/Veliola.xml"
