@@ -75,12 +75,13 @@
   parent: BriefcaseBrown
   id: BriefcaseBrownNfsdSniperBundle
   suffix: NFSD, Sniper Bundle
-  description: "A product from Nanotrasen's optics department, now with extra binoculars!"
+  description: "An Aspect AMR with ammo, perfect for breaching and penetrating heavy armor."
   components:
   - type: StorageFill
     contents:
     - id: NFWeaponRifleSniperAspect
-    - id: Binoculars
+    - id: NFAmmunitionBoxRifle60
+      amount: 2
     - id: NFAmmunitionBoxRifle60Rubber
       amount: 2
 
