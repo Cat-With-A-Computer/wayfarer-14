@@ -86,7 +86,10 @@
       types:
         Shock: 1
   - type: StaminaDamageOnCollide
-    damage: 5
+    damage: 7.5
+    soundHit:
+      collection: WeakHit
+    forceSound: true
 
 # PelletsSpread
 - type: entity
@@ -124,9 +127,6 @@
     count: 5
     spread: 9.5
     impactEffect: BulletImpactEffectDisabler
-    soundHit:
-      collection: WeakHit
-    forceSound: true
 
 #region Disabler bolts
 - type: entity
