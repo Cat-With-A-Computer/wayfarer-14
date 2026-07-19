@@ -42,13 +42,7 @@
     fireModes:
     - proto: WFBulletLaserShotgunWide
       fireCost: 150
-      name: wide
-      state: wide
     - proto: WFBulletLaserShotgunNarrow
       fireCost: 200
-      name: narrow
-      state: narrow
     - proto: WFBulletDisablerShotgun
       fireCost: 120
-      name: disable
-      state: disable
