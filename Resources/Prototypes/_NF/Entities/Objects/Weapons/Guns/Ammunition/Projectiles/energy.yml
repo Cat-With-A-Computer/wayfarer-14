@@ -85,11 +85,11 @@
     damage:
       types:
         Shock: 1
-  - type: StaminaDamageOnCollide
-    damage: 7.5
     soundHit:
       collection: WeakHit
     forceSound: true
+  - type: StaminaDamageOnCollide
+    damage: 7.5
 
 # PelletsSpread
 - type: entity
