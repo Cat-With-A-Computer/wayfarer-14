@@ -96,7 +96,7 @@
       name: disable
       state: disabler
     - proto: NFBulletLaserLow
-      fireCost: 60
+      fireCost: 120
       name: kill
       state: lethal
   - type: GenericVisualizer
