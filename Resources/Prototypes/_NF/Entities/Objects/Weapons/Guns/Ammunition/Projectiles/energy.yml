@@ -73,7 +73,7 @@
   - type: Projectile
     damage:
       types:
-        Heat: 7.5
+        Heat: 5.5
 
 - type: entity
   id: WFBulletLaserShotgunPelletDisabler
