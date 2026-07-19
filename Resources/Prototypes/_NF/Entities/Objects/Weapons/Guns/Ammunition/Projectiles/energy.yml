@@ -91,7 +91,7 @@
 # PelletsSpread
 - type: entity
   id: WFBulletLaserShotgunWide
-  name: WideSpread
+  name: Wide Spread
   parent: WFBulletLaserShotgunPellet
   categories: [ HideSpawnMenu ]
   components:
@@ -103,7 +103,7 @@
 
 - type: entity
   id: WFBulletLaserShotgunNarrow
-  name: NarrowSpread
+  name: Narrow Spread
   parent: WFBulletLaserShotgunPellet
   categories: [ HideSpawnMenu ]
   components:
