@@ -74,7 +74,7 @@
 - type: entity
   parent: BriefcaseBrown
   id: BriefcaseBrownNfsdSniperBundle
-  suffix: NFSD, Sniper Bundle
+  suffix: CGP, Sniper Bundle
   description: "An Aspect AMR with ammo, perfect for breaching and penetrating heavy armor."
   components:
   - type: StorageFill
