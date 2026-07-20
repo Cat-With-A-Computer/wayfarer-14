@@ -144,6 +144,11 @@
     state: bar_spoon
   - type: Item
     heldPrefix: spoon
+    # Start Wayfarer
+    # - type: Utensil
+    # types:
+    # - Spoon
+    # End Wayfarer
   - type: ReactionMixer
     mixMessage: "spoon-mixing-success"
     timeToMix: 0.5
