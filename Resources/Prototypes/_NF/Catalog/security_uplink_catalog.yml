@@ -371,6 +371,8 @@
       whitelist:
         tags:
           - SecurityUplink
+          
+# Wayfarer Start
 - type: listing
   id: UplinkSecurityEnergyShotgun
   name: uplink-security-eshotty-name
@@ -386,6 +388,7 @@
     whitelist:
       tags:
       - SecurityUplink
+# Wayfarer End
 
 #region utililty
 - type: listing
