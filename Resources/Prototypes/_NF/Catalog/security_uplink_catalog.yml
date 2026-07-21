@@ -387,6 +387,13 @@
     whitelist:
       tags:
       - SecurityUplink
+  # Wayfarer Start
+  #- !type:BuyerJobCondition
+  #  whitelist:
+  #  - SeniorOfficer
+  #  - Bailiff
+  #  - Sheriff
+  # Wayfarer End
 
 #region utililty
 - type: listing
@@ -755,6 +762,12 @@
     whitelist:
       tags:
       - SecurityUplink
+  # Wayfarer Start
+  #- !type:BuyerJobCondition
+  #  whitelist:
+  #  - Bailiff
+  #  - Sheriff
+  # Wayfarer End
 
 - type: listing
   id: UplinkSecurityAmmunitionBoxRifle60Rubber
@@ -771,6 +784,13 @@
     whitelist:
       tags:
       - SecurityUplink
+  # Wayfarer Start
+  #- !type:BuyerJobCondition
+  #  whitelist:
+  #  - SeniorOfficer
+  #  - Bailiff
+  #  - Sheriff
+  # Wayfarer End
 
 - type: listing
   id: UplinkSecurityHypo

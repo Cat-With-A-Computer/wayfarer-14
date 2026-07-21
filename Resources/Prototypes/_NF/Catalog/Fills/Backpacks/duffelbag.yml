@@ -80,8 +80,10 @@
   - type: StorageFill
     contents:
     - id: NFWeaponRifleSniperAspect
+    #- id: Binoculars Wayfarer Start
     - id: NFAmmunitionBoxRifle60
       amount: 2
+    # Wayfarer End
     - id: NFAmmunitionBoxRifle60Rubber
       amount: 2
 

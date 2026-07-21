@@ -52,7 +52,7 @@
 
 - type: entity
   abstract: true
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleSniper ]
+  parent: [ BaseCGPContraband, NFBaseWeaponFrameRifleSniper ] # Wayfarer: BaseC2ContrabandUnredeemable<BaseCGPContraband
   id: NFBaseWeaponFrameRifleSniperNanotrasen
   components:
   - type: Gun
