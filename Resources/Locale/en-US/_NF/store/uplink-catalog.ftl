@@ -75,7 +75,8 @@ uplink-security-emprpg-name = EMP Rocket Launcher
 uplink-security-emprpg-desc = A rocket propelled grenade launcher. Comes with 1 EMP round.
 
 uplink-security-sniper-name = Sniper Bundle
-# uplink-security-sniper-desc = "Aspect" sniper rifle provided with non lethal .60 rounds for long range support on the field, for lethal ammunition ask your higher ups. Wayfarer Start
+# Wayfarer Start
+# uplink-security-sniper-desc = "Aspect" sniper rifle provided with non lethal .60 rounds for long range support on the field, for lethal ammunition ask your higher ups. < Changed
 uplink-security-sniper-desc = "Aspect" sniper rifle provided with .60 rounds for breaching and support.
 # Wayfarer End
 
