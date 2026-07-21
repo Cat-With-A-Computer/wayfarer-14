@@ -78,6 +78,9 @@ uplink-security-sniper-name = Sniper Bundle
 # Wayfarer Start
 # uplink-security-sniper-desc = "Aspect" sniper rifle provided with non lethal .60 rounds for long range support on the field, for lethal ammunition ask your higher ups. < Changed
 uplink-security-sniper-desc = "Aspect" sniper rifle provided with .60 rounds for breaching and support.
+
+uplink-security-eshotty-name = Experimental Energy Shotgun
+uplink-security-eshotty-desc = Experimental Energy Shotgun with three different firing modes. Wide, which fires more shots. Narrow, which decreases spread. And disabler, which fires disabling energy bolts.
 # Wayfarer End
 
 uplink-security-empgrenade-name = EMP Grenade
