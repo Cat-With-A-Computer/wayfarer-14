@@ -90,8 +90,10 @@
       radius: 5
       energy: 10
     - type: Flash
-      flashOnMelee: false
-      flashOnUse: false
+      flashOnToggle: false
+    - type: UseDelay
+      delay: 4
+    - type: UseDelayOnMeleeHit
     - type: LimitedCharges
       maxCharges: 15
     - type: MeleeWeapon

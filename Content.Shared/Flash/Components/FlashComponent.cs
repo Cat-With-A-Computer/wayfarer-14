@@ -23,6 +23,12 @@ public sealed partial class FlashComponent : Component
     public bool FlashOnMelee = true;
 
     /// <summary>
+    /// Flash the area around the entity when toggled?
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public bool FlashOnToggle = true;
+
+    /// <summary>
     /// Time the Flash will be visually flashing after use.
     /// For the actual interaction delay use UseDelayComponent.
     /// These two times should be the same.
