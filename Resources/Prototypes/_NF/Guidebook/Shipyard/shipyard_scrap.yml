@@ -7,10 +7,12 @@
   - ShipyardGeode
   - ShipyardRusty
   - ShipyardTide
+
   # Wayfarer Ships
   - ShipyardMephit
   - ShipyardIcarus
   - ShipyardRatrod
+  - ShipyardZipper
 
 - type: guideEntry
   id: ShipyardConstruct
