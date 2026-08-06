@@ -5,7 +5,6 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 06/20/2026 19:22:02
-  entityCount: 1720
 maps: []
 grids:
 - 1
@@ -69,9 +68,6 @@ entities:
     components:
     - type: MetaData
       name: grid
-    - type: Transform
-      pos: -0.515625,-0.453125
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -5926,6 +5922,8 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#990000FF'
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
 - proto: GasPipeBendAlt1
   entities:
   - uid: 796
@@ -11949,5 +11947,12 @@ entities:
     components:
     - type: Transform
       pos: -6.5,-0.5
+      parent: 1
+- proto: ComputerTabletopStationRecords
+  entities:
+  - uid: 1751
+    components:
+    - type: Transform
+      pos: 10.5,-17.5
       parent: 1
 ...
