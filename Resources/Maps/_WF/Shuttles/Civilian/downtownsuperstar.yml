@@ -5924,7 +5924,7 @@ entities:
     - type: AtmosPipeColor
       color: '#990000FF'
     - type: AtmosPipeLayers
-      pipeLayer: Tertiary
+      pipeLayer: Secondary
 - proto: GasPipeBendAlt1
   entities:
   - uid: 796
