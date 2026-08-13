@@ -63,9 +63,6 @@ entities:
     components:
     - type: MetaData
       name: NFSD Outpost 2.0
-    - type: Transform
-      pos: -0.7535782,-0.9450321
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -11461,6 +11458,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,16.5
       parent: 1
+  - uid: 4659
+    components:
+    - type: Transform
+      pos: -17.5,15.5
+      parent: 1
 - proto: ComputerTabletopStationRecords
   entities:
   - uid: 1297
@@ -11488,11 +11490,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 33.5,10.5
-      parent: 1
-  - uid: 1301
-    components:
-    - type: Transform
-      pos: -17.5,15.5
       parent: 1
 - proto: ComputerWallmountBankATM
   entities:
