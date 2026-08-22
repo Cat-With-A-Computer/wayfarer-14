@@ -6123,3 +6123,22 @@ Entries:
   id: 7200
   time: '2026-08-22T17:43:50.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1461
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: The toy box can once again be purchased from the cargo terminal.
+    - type: Add
+      message: Added unicycle to loadout.
+    - type: Add
+      message: Added various toy/clown related items to toy box.
+    - type: Add
+      message: Added space lube to loadout.
+    - type: Remove
+      message: Removed NT balloon from toy box.
+    - type: Tweak
+      message: Changed price of the unicycle to 1000 spesos.
+    - type: Tweak
+      message: Changed price of toy box to 5000 spesos.
+  id: 7201
+  time: '2026-08-22T17:45:02.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1409
