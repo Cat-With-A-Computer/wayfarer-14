@@ -6151,3 +6151,14 @@ Entries:
   id: 7202
   time: '2026-08-22T17:45:27.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1399
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: >-
+        Separated the Velios and Veliola's Cryo refill from the ship's atmos
+        loop.
+    - type: Fix
+      message: Fixed a broken waste pipe on both the Velios and Veliola.
+  id: 7203
+  time: '2026-08-22T17:49:20.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1441
