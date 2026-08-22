@@ -6096,3 +6096,16 @@ Entries:
   id: 7197
   time: '2026-08-17T02:51:43.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1456
+- author: Hawk-v3
+  changes:
+    - type: Add
+      message: New Esoteric Contraband (C3E) form!
+    - type: Add
+      message: Junior Training Checklist! (Thanks Expy 621!)
+    - type: Tweak
+      message: Small tweaks to make multiple forms match CGP GORP.
+    - type: Tweak
+      message: Duty Log updated from player suggestions.
+  id: 7198
+  time: '2026-08-22T17:38:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1462
