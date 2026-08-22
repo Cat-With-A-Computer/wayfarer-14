@@ -6116,3 +6116,10 @@ Entries:
   id: 7199
   time: '2026-08-22T17:39:00.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1465
+- author: SwirlyMadface
+  changes:
+    - type: Fix
+      message: Set FoodDoughTortillaFlat nutri to 5, was 15.
+  id: 7200
+  time: '2026-08-22T17:43:50.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1461
