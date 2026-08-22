@@ -6173,3 +6173,12 @@ Entries:
   id: 7204
   time: '2026-08-22T17:49:59.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1448
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: >-
+        New cargo merchant stock, including merchant handheld uplink. seeds
+        restocks, fancy tools.
+  id: 7205
+  time: '2026-08-22T17:50:30.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1472
