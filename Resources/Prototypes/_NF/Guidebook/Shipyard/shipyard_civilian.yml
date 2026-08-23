@@ -69,6 +69,8 @@
   - ShipyardSwan
   - ShipyardTakeaway # Monolith Ship
   - ShipyardUniform
+  - ShipyardFatbears
+  - ShipyardZenith
 
 - type: guideEntry
   id: ShipyardAdder

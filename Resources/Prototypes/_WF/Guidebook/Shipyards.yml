@@ -1,4 +1,4 @@
-﻿- type: guideEntry
+- type: guideEntry
   id: ShipyardCGP
   name: guide-entry-shipyard-cgp
   text: "/ServerInfo/_WF/Guidebook/Shipyard/CgpShipyard.xml"
@@ -229,6 +229,16 @@
   text: "/ServerInfo/_WF/Guidebook/Shipyard/OutlawShipyard/Veliola.xml"
 
 - type: guideEntry
+  id: ShipyardFatbears
+  name: guide-entry-shipyard-fatbears
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Fatbears.xml"
+
+- type: guideEntry
   id: ShipyardZipper
   name: guide-entry-shipyard-zipper
   text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard/Zipper.xml"
+
+- type: guideEntry
+  id: ShipyardZenith
+  name: guide-entry-shipyard-zenith
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Zenith.xml"
