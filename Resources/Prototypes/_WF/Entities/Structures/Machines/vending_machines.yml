@@ -1,29 +1,4 @@
 - type: entity
-  parent: BaseFigurine
-  id: ToyFigurineMayla
-  name: mini mayla
-  description: A figurine of MAYLA.
-  components:
-  - type: Sprite
-    sprite: _WF/Minimayla/minimayla.rsi
-    state: mayla
-  - type: SpeakOnTrigger
-    pack: FigurinesMayla
-
-- type: localizedDataset
-  id: FigurinesMayla
-  values:
-    prefix: figurines-mayla-
-    count: 5
-
-- type: vendingMachineInventory
-  id: MaylaVendInventory
-  startingInventory:
-    ToyFigurineMayla: 9999
-  contrabandInventory:
-    ClothingUniformJumpskirtPurpleElegantDress: 5
-
-- type: entity
   parent: VendingMachine
   id: VendingMachineMayla
   name: MaylaVend
@@ -39,7 +14,7 @@
   - type: DatasetVocalizer
     dataset: MaylaAds
   - type: SpeakOnUIClosed
-    pack: GoodCleanFunGoodbyes
+    pack: MaylaGoodbyes
   - type: Sprite
     sprite: _WF/Minimayla/maylavend.rsi
     layers:
@@ -54,15 +29,3 @@
     radius: 1.5
     energy: 3.0
     color: "#326e3f"
-
-- type: localizedDataset
-  id: MaylaAds
-  values:
-    prefix: mayla-ads-
-    count: 5
-
-- type: localizedDataset
-  id: MaylaGoodbyes
-  values:
-    prefix: mayla-goodbyes-
-    count: 5
