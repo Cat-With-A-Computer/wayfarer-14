@@ -1,0 +1,68 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineMayla
+  name: mini mayla
+  description: A figurine of MAYLA.
+  components:
+  - type: Sprite
+    sprite: _WF/Minimayla/minimayla.rsi
+    state: mayla
+  - type: SpeakOnTrigger
+    pack: FigurinesMayla
+
+- type: localizedDataset
+  id: FigurinesMayla
+  values:
+    prefix: figurines-mayla-
+    count: 5
+
+- type: vendingMachineInventory
+  id: MaylaVendInventory
+  startingInventory:
+    ToyFigurineMayla: 9999
+  contrabandInventory:
+    ClothingUniformJumpskirtPurpleElegantDress: 5
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineMayla
+  name: MaylaVend
+  description: Vends Maylas... wait what?
+  components:
+  - type: VendingMachine
+    pack: MaylaVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    ejectDelay: 1.8
+  - type: DatasetVocalizer
+    dataset: MaylaAds
+  - type: SpeakOnUIClosed
+    pack: GoodCleanFunGoodbyes
+  - type: Sprite
+    sprite: _WF/Minimayla/maylavend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 3.0
+    color: "#326e3f"
+
+- type: localizedDataset
+  id: MaylaAds
+  values:
+    prefix: mayla-ads-
+    count: 5
+
+- type: localizedDataset
+  id: MaylaGoodbyes
+  values:
+    prefix: mayla-goodbyes-
+    count: 5
