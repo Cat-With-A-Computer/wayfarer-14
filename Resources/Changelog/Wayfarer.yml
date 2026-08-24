@@ -6196,3 +6196,10 @@ Entries:
   id: 7207
   time: '2026-08-23T17:29:38.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1463
+- author: cryowyrm
+  changes:
+    - type: Add
+      message: added dense and sparse bluespace walls for mapdev and admin use.
+  id: 7208
+  time: '2026-08-24T00:45:49.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1466
