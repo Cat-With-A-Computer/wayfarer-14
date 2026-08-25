@@ -6217,3 +6217,10 @@ Entries:
   id: 7210
   time: '2026-08-24T03:06:13.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1474
+- author: RoY7x
+  changes:
+    - type: Fix
+      message: Tag.yml missing WhitelistWallet from the recent Wallet Update.
+  id: 7211
+  time: '2026-08-25T03:03:16.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1503
