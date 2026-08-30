@@ -6224,3 +6224,10 @@ Entries:
   id: 7211
   time: '2026-08-25T03:03:16.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1503
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: Changed Shadekin to have NightVision
+  id: 7212
+  time: '2026-08-30T14:59:58.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1471
