@@ -6251,3 +6251,10 @@ Entries:
   id: 7214
   time: '2026-08-30T15:44:12.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1499
+- author: cyanfoot
+  changes:
+    - type: Tweak
+      message: IPCs can now vore/digest, and be vored/digested.
+  id: 7215
+  time: '2026-08-30T15:54:39.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1505
