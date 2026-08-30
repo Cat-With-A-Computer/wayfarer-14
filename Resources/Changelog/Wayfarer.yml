@@ -6231,3 +6231,16 @@ Entries:
   id: 7212
   time: '2026-08-30T14:59:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1471
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: Outlaws can now get mail.
+    - type: Tweak
+      message: UIV's and Hulks now happen ~3x less frequently
+    - type: Tweak
+      message: Coldlight UIV's are 1/4th as common as the other UIV's
+    - type: Remove
+      message: Vaults no longer happen naturally
+  id: 7213
+  time: '2026-08-30T15:28:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1507
