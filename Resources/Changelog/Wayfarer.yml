@@ -6265,3 +6265,14 @@ Entries:
   id: 7216
   time: '2026-08-30T16:10:53.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1510
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: >-
+        Ported Angobitters, and drinks made with it such as an Old Fashioned,
+        from DeltaV
+    - type: Tweak
+      message: Changed the sprites of some existing drinks, such as moonshine
+  id: 7217
+  time: '2026-08-30T18:38:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1506
