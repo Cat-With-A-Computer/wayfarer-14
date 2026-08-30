@@ -6258,3 +6258,10 @@ Entries:
   id: 7215
   time: '2026-08-30T15:54:39.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1505
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: One new lobby art
+  id: 7216
+  time: '2026-08-30T16:10:53.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1510
