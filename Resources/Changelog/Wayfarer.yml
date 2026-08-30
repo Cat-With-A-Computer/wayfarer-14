@@ -6244,3 +6244,10 @@ Entries:
   id: 7213
   time: '2026-08-30T15:28:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1507
+- author: Rellu225
+  changes:
+    - type: Tweak
+      message: Morgue is now deconstructible!
+  id: 7214
+  time: '2026-08-30T15:44:12.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1499
