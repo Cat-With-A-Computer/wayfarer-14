@@ -6290,3 +6290,12 @@ Entries:
   id: 7219
   time: '2026-08-31T02:35:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1464
+- author: RoY7x
+  changes:
+    - type: Add
+      message: >-
+        The ability to now manually set yourself as SSD for when you need to
+        AFK!
+  id: 7220
+  time: '2026-08-31T03:09:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1508
