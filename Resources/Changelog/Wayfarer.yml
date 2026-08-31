@@ -6299,3 +6299,12 @@ Entries:
   id: 7220
   time: '2026-08-31T03:09:10.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1508
+- author: cyanfoot
+  changes:
+    - type: Tweak
+      message: >-
+        Changed some parts of Calypso's Restaurant, Medbay, and Construction
+        Site.
+  id: 7221
+  time: '2026-08-31T03:19:44.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1514
