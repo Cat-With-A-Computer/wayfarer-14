@@ -6276,3 +6276,10 @@ Entries:
   id: 7217
   time: '2026-08-30T18:38:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1506
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: 'Borg QoL improvements: Radio keys, and stripping people'
+  id: 7218
+  time: '2026-08-31T01:42:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1515
