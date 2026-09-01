@@ -316,7 +316,7 @@ public sealed partial class ShadekinSystem : EntitySystem
             return;
 
         // update whether or not nightVision should be active based on light level
-        nightVision.Enabled = shouldBeActive; // Wayfarer: Active<Enabled
+        // nightVision.Enabled = shouldBeEnabled; // Wayfarer
 
         // ensure nightVision updates to reflect the new state
         Dirty(uid, nightVision);
