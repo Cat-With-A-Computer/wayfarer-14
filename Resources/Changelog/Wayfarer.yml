@@ -6308,3 +6308,12 @@ Entries:
   id: 7221
   time: '2026-08-31T03:19:44.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1514
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: Bullets are now a bit faster
+    - type: Fix
+      message: Bullets no longer phase through things
+  id: 7222
+  time: '2026-09-03T23:47:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1517
