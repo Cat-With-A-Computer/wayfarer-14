@@ -20,7 +20,6 @@ using Content.Server.Body.Components;
 using Content.Server.Buckle.Systems;
 using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
-using Content.Shared._Coyote;
 using Content.Shared.Atmos;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
@@ -287,7 +286,7 @@ public sealed partial class SalvageSystem
                                     if (mobXform.GridUid == shuttleGrid)
                                         continue; // they're already on the shuttle
                                     // only count creatures that have at one point had a player controlling them
-                                    if (!mindC.HasHadMind)
+                                    if (!mindC.HasMind)
                                         continue;
                                     // move them to the shuttle
                                     deadLoserDestinations ??= GetDeadLoserDestinations(shuttleGrid.Value);
@@ -297,7 +296,7 @@ public sealed partial class SalvageSystem
                                         shuttleGrid.Value);
                                     Spawn("EffectSparks", Transform(mobUid).Coordinates);
                                     Spawn("EffectGravityPulse", Transform(mobUid).Coordinates);
-                                    SoundSpecifier Sound = new SoundPathSpecifier("/Audio/_COYOTE/ExpedReturnToBed.ogg");
+                                    SoundSpecifier Sound = new SoundPathSpecifier("/Audio/_CS/ExpedReturnToBed.ogg");
                                     _audio.PlayPvs(Sound, mobUid);
                                 }
                             }
@@ -664,19 +663,6 @@ public sealed partial class SalvageSystem
         if (_timing.CurTime < component.NextAutoAbortCheck)
             return;
         component.NextAutoAbortCheck = _timing.CurTime + TimeSpan.FromSeconds(15);
-
-        // okay first look for aghosts, whatever
-        var aghostQuery =
-            EntityQueryEnumerator<AdminGhostComponent, TransformComponent>();
-        while (aghostQuery.MoveNext(
-                   out var _,
-                   out _,
-                   out var xform))
-        {
-            if (xform.MapUid == mapUid)
-                return; // aghost found, dont abort
-        }
-
         var query =
             EntityQueryEnumerator<
                 HumanoidAppearanceComponent,
@@ -684,7 +670,6 @@ public sealed partial class SalvageSystem
                 MobStateComponent,
                 TransformComponent>();
         // prevent abort if:
-        // - aghosts are present
         // - anyone is alive AND connected
         while (query.MoveNext(
                    out var uid,
@@ -696,7 +681,7 @@ public sealed partial class SalvageSystem
             if (xform.MapUid != mapUid)
                 continue;
             // unidentified humans (loot) dont count
-            if (!mindC.HasHadMind)
+            if (!mindC.HasMind)
                 continue;
             // if anyone is alive and not in crit, we are good
             if (_mobState.IsAlive(uid, mobState))
