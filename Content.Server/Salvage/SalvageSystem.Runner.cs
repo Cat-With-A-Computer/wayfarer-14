@@ -516,36 +516,22 @@ public sealed partial class SalvageSystem
     }
 
     /// <summary>
-    /// Beats the heck out of the dork if they arent dead
+    /// Beats the heck out of the dork
     /// Then extinguishes them and caps their Heat to 300ish if above that.
     /// </summary>
     private void TendToDork(EntityUid mobUid)
     {
-        if (_mobState.IsAlive(mobUid))
+        // Wayfarer Start - Make anybody recovered take extra damage, not just alive/crit people
+        var random = new Random();
+        var hurtEmThisMuch = new DamageSpecifier()
         {
-            // hey you're alive! stop that!
-            var hurtEmThisMuch = new DamageSpecifier()
-            {
-                DamageDict = { ["Slash"] = 150, ["Heat"] = 150, ["Poison"] = 100 }
-            };
-            _damageable.TryChangeDamage(
-                mobUid,
-                hurtEmThisMuch,
-                true);
-        }
-        else if (_mobState.IsCritical(mobUid))
-        {
-            // I saw that, you're still alive! stop that!
-            var hurtEmThisMuch = new DamageSpecifier()
-            {
-                DamageDict = { ["Slash"] = 50, ["Heat"] = 50, ["Poison"] = 25 }
-            };
-            _damageable.TryChangeDamage(
-                mobUid,
-                hurtEmThisMuch,
-                true);
-        }
-
+            DamageDict = { ["Slash"] = random.Next(0, 201), ["Piercing"] = random.Next(0, 201), ["Cellular"] = random.Next(50, 76), ["Asphyxiation"] = random.Next(200, 301) }
+        };
+        _damageable.TryChangeDamage(
+            mobUid,
+            hurtEmThisMuch,
+            true);
+        // Wayfarer End
         // okay, extinguish them, and clamp their burn damages to a max of 300
         // fire sucks, i hate this game
         var ev = new ExtinguishEvent

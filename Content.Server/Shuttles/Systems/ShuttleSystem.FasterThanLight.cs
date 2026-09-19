@@ -587,9 +587,9 @@ public sealed partial class ShuttleSystem
         {
             if (mobXform.GridUid != shuttleGridId)
                 continue;
-
-            var deathrattleEvent = new ReTriggerRattleImplantEvent(mobUid, mobState.CurrentState);
-            RaiseLocalEvent(mobUid, deathrattleEvent);
+            // Wayfarer Start - I'm not competent enough with C# to make the radio message work properly. Needs to be done later
+            // var deathrattleEvent = new ReTriggerRattleImplantEvent(mobUid, mobState.CurrentState);
+            // RaiseLocalEvent(mobUid, deathrattleEvent);
         }
     }
 
