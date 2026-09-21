@@ -6569,3 +6569,12 @@ Entries:
   id: 7247
   time: '2026-09-21T03:04:01.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1582
+- author: RoY7x
+  changes:
+    - type: Fix
+      message: The other missing staging PR's have been re-added
+    - type: Fix
+      message: Clown updates, radio broadcast consoles and boom boxes are now available
+  id: 7248
+  time: '2026-09-21T03:07:25.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1585
