@@ -6587,3 +6587,10 @@ Entries:
   id: 7249
   time: '2026-09-21T03:15:04.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1586
+- author: RoY7x
+  changes:
+    - type: Tweak
+      message: Some optimisations to weather code.
+  id: 7250
+  time: '2026-09-21T03:18:46.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1587
