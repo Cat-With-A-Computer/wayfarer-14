@@ -6612,3 +6612,20 @@ Entries:
   id: 7252
   time: '2026-09-21T03:41:01.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1589
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: >-
+        Added the Station Staff role, intended to do any Dusk/Calypso focused
+        Service Role (e.g. Bartender, Chef, Janitor, Valet)
+    - type: Remove
+      message: >-
+        Valet removed from open positions - use Station Staff if you want to
+        play this. (Janitor remains)
+    - type: Tweak
+      message: >-
+        The Botany bay on the bar side has been converted into a break room for
+        service staff working on Dusk. 
+  id: 7253
+  time: '2026-09-21T03:57:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1591
