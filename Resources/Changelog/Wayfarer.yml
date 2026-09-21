@@ -6629,3 +6629,12 @@ Entries:
   id: 7253
   time: '2026-09-21T03:57:36.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1591
+- author: gaywolfgirl6
+  changes:
+    - type: Tweak
+      message: >-
+        Behir edits: Removed blasted flooring, added Light Switches, Made it a
+        bit prettier, updated its Guidebook.
+  id: 7254
+  time: '2026-09-21T04:02:23.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1599
