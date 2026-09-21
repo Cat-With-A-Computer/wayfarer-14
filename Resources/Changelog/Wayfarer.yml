@@ -6674,3 +6674,14 @@ Entries:
   id: 7258
   time: '2026-09-21T04:09:41.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1598
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: Cyborgs can now pick from differing sprites for each role
+    - type: Add
+      message: SS13 inspired Cyborg sprites from Goob
+    - type: Add
+      message: insect inspired Bugborg sprites from Omu
+  id: 7259
+  time: '2026-09-21T04:28:29.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1594
