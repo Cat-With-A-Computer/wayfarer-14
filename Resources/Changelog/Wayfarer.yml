@@ -6603,3 +6603,12 @@ Entries:
   id: 7251
   time: '2026-09-21T03:23:36.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1590
+- author: Whisper
+  changes:
+    - type: Tweak
+      message: >-
+        Increased protein gained from blood comsumption back to 1u = 0.1u (prior
+        was 10x less)
+  id: 7252
+  time: '2026-09-21T03:41:01.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1589
