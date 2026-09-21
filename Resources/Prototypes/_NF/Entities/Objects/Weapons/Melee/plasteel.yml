@@ -113,6 +113,7 @@
     state: spear
   - type: MeleeWeapon
     # Wayfarer Start
+    autoAttack: true
     damage:
       types:
         Piercing: 15
@@ -125,6 +126,5 @@
       types:
         Piercing: 45
     # Wayfarer End
-    autoAttack: true
   - type: Clothing
     sprite: _NF/Objects/Weapons/Melee/plasteel_spear.rsi
