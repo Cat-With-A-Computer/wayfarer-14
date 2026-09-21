@@ -6594,3 +6594,12 @@ Entries:
   id: 7250
   time: '2026-09-21T03:18:46.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1587
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: >-
+        Wiping, dying, or otherwise being left behind on expeditions will damage
+        you and bring you back to your ship!
+  id: 7251
+  time: '2026-09-21T03:23:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1590
