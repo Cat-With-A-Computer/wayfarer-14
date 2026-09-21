@@ -6562,3 +6562,10 @@ Entries:
   id: 7246
   time: '2026-09-21T02:58:21.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1584
+- author: cyanfoot
+  changes:
+    - type: Tweak
+      message: Converted the TradeExpress bus to the Calypso Express
+  id: 7247
+  time: '2026-09-21T03:04:01.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1582
