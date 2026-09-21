@@ -18,7 +18,16 @@
   loadouts:
   - BrigmedicOuterClothing
   - CGPPatrolSuitBrig # Wayfarer
-
+  
+- type: loadoutGroup
+  id: BrigmedicBackpack
+  name: loadout-group-contractor-backpack
+  minLimit: 0
+  loadouts:
+  - BrigmedicClothingBackpackBrigmedic
+  - BrigmedicClothingSatchelBrigmedic
+  - BrigmedicClothingDuffelBrigmedic
+  
 - type: loadoutGroup
   id: BrigmedicHead
   name: loadout-group-contractor-head

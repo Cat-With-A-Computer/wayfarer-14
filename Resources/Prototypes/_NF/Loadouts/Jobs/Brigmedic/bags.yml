@@ -1,0 +1,15 @@
+- type: loadout
+  id: BrigmedicClothingBackpackBrigmedic
+  equipment:
+    head: ClothingBackpackBrigmedic
+  groupBy: "backpacks"
+  - type: loadout
+  id: BrigmedicClothingSatchelBrigmedic
+  equipment:
+    head: ClothingSatchelBrigmedic
+  groupBy: "satchels"
+  - type: loadout
+  id: BrigmedicClothingDuffelBrigmedic
+  equipment:
+    head: ClothingDuffelBrigmedic
+  groupBy: "duffels"
