@@ -6553,3 +6553,12 @@ Entries:
   id: 7245
   time: '2026-09-21T02:48:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1583
+- author: lucentlavender
+  changes:
+    - type: Add
+      message: 4 new mini mayla models
+    - type: Add
+      message: 1 new SECRET mini mayla
+  id: 7246
+  time: '2026-09-21T02:58:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1584
