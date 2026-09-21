@@ -284,6 +284,7 @@
   - BrigmedicJumpsuit
   - BrigmedicGloves
   - NfsdBackpackCream
+  - BrigmedicBackpack
   - BrigmedicOuterClothing
   - NfsdForcedOuterClothing
   - NfsdShoesCream
@@ -412,6 +413,7 @@
   - WFWallet
   - WFCartridge
   - WFImplanter
+  - WFEncryptionKey
   - SeniorOfficerBackpackItems
   - WFHandItems
   - ContractorSupportPets

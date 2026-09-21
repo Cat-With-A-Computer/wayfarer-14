@@ -24,9 +24,9 @@
   name: loadout-group-contractor-backpack
   minLimit: 0
   loadouts:
-  - BrigmedicClothingBackpackBrigmedic
-  - BrigmedicClothingSatchelBrigmedic
-  - BrigmedicClothingDuffelBrigmedic
+  - WFClothingBackpackBrigmedic
+  - WFClothingBackpackSatchelBrigmedic
+  - WFClothingBackpackDuffelBrigmedic
   
 - type: loadoutGroup
   id: BrigmedicHead
