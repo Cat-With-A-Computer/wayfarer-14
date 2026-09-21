@@ -63,10 +63,12 @@
     angleIncrease: 0.5
     angleDecay: 2.6
     fireRate: 1.5
+    # Wayfarer Start
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
-    maxOffset: 5
+    maxOffset: 2.5
     pvsIncrease: 1
+    # End Wayfarer
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
