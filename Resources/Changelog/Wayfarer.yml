@@ -6685,3 +6685,10 @@ Entries:
   id: 7259
   time: '2026-09-21T04:28:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1594
+- author: RoY7x
+  changes:
+    - type: Add
+      message: Added a system for automatically scheduling weather.
+  id: 7260
+  time: '2026-09-21T04:38:49.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1588
