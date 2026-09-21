@@ -6578,3 +6578,12 @@ Entries:
   id: 7248
   time: '2026-09-21T03:07:25.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1585
+- author: RoY7x
+  changes:
+    - type: Add
+      message: Finger gun ability to the mime trait.
+    - type: Add
+      message: Invisible box ability to the mime trait.
+  id: 7249
+  time: '2026-09-21T03:15:04.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1586
