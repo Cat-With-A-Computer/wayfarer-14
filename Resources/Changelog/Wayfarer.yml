@@ -6652,3 +6652,16 @@ Entries:
   id: 7256
   time: '2026-09-21T04:04:20.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1595
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: barrels and some new stock to cargo merchant
+    - type: Add
+      message: bulk food freezer crates, smartfridge flatpack, Magic candle crate.
+    - type: Tweak
+      message: >-
+        some prices lower of chemvend50>40, chefvend50>40, cargotechfab100>50,
+        flour barrel 15>10
+  id: 7257
+  time: '2026-09-21T04:06:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1596
