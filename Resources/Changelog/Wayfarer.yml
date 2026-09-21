@@ -6638,3 +6638,10 @@ Entries:
   id: 7254
   time: '2026-09-21T04:02:23.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1599
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: dicebag(filled) to loadout
+  id: 7255
+  time: '2026-09-21T04:03:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1593
