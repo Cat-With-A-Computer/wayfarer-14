@@ -6665,3 +6665,12 @@ Entries:
   id: 7257
   time: '2026-09-21T04:06:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1596
+- author: RoY7x
+  changes:
+    - type: Tweak
+      message: >-
+        Made Cryo-able Borg Hibernation Recharges get a pinstripe to tell what
+        they are!
+  id: 7258
+  time: '2026-09-21T04:09:41.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1598
