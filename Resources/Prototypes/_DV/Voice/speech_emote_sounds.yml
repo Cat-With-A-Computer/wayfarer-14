@@ -144,6 +144,8 @@
       collection: VulpkaninHowls
     Gekker:
       collection: VulpkaninGekkers # Wayfarer
+    FoxCry:
+      collection: VulpkaninCries # Wayfarer
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
@@ -176,6 +178,8 @@
       collection: FemaleSigh
     Crying:
       collection: FemaleCry
+    FoxCry:
+      collection: VulpkaninCries # Wayfarer
     Whistle:
       collection: Whistles
     Weh:

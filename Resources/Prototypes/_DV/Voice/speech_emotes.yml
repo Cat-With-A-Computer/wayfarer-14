@@ -232,7 +232,21 @@
     - gekker
     - gekkers
     - gek
-  
+
+- type: emote
+  id: FoxCry
+  name: delta-chat-emote-name-foxcry
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [cries.]
+  chatTriggers:
+  - fox cry
 # Feroxi
 - type: emote
   id: Gnash
@@ -282,4 +296,4 @@
     - BorgChassis
   chatMessages: ["laughs"]
   chatTriggers:
-  - laughs ferret-ly
+  - ferret laugh
