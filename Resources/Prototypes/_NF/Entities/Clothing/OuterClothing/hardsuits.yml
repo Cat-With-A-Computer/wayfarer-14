@@ -232,7 +232,7 @@
   parent: [BaseCGPContraband, ClothingOuterHardsuitJuggernaut] # Wayfarer: BaseC2ContrabandUnredeemable<BaseCGPContraband
   id: ClothingOuterHardsuitNfsdExperimental
   name: CGP experimental combat suit
-  description: A very heavily armored CGP suit. This space proof marvel of engineering uses state of the art alloys to provide immense protection while sacrificing little mobility.
+  description: An Experimental CGP Combat Suit. It is fitted specifically to counter environmental threats while still providing a good degree of protection from conventional weaponry. # Wayfarer: Changed description
   components:
   - type: Sprite
     sprite: _WF/Clothing/OuterClothing/Hardsuits/CGP_experimental.rsi # Wayfarer: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi < _WF/Clothing/OuterClothing/Hardsuits/CGP_experimental.rsi
