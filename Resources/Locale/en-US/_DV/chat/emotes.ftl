@@ -11,4 +11,8 @@ delta-chat-emote-name-snarl = Snarl
 delta-chat-emote-name-whine = Whine
 delta-chat-emote-name-howl = Howl
 delta-chat-emote-name-awoo = Awoo
+# Wayfarer: Add Gekker
+delta-chat-emote-name-gekker = Gekker
 delta-chat-emote-name-gnash = Gnash
+# Wayfarer: Add Ferret Laugh
+delta-chat-emote-name-ferretlaugh = Ferret Laugh
