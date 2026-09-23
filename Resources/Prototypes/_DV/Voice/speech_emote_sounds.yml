@@ -273,7 +273,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: RodentiaScreams # Wayfarer
+      collection: RodentiaScreams # Wayfarer
     Laugh:
       collection: FemaleLaugh
     FerretLaugh:
