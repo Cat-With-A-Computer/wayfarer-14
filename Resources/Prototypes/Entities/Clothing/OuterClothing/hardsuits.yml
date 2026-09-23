@@ -553,8 +553,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseBMContraband ] # Wayfarer: BaseSyndicateContraband<BaseBMContraband
   id: ClothingOuterHardsuitSyndie
-  name: coldlight hardsuit # Wayfarer: Changed name
-  description: A heavily armored hardsuit especially designed to fit any situation. Usually worn by Coldlight Wolves. # Wayfarer: Changed description
+  name: spinel hardsuit # Wayfarer: Changed name
+  description: A heavily armored hardsuit especially designed to fit any situation. # Wayfarer: Changed description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -602,7 +602,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseBMContraband ] # Wayfarer: BaseSyndicateContraband<BaseBMContraband
   id: ClothingOuterHardsuitSyndieMedic
-  name: coldlight medic hardsuit
+  name: spinel medic hardsuit
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations. Cut-resistant alloys provide substantial protection against infectious bites. # Frontier: "Cut-resistant alloys..." added to description.
   components:
   - type: Sprite
@@ -634,8 +634,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseBMContraband ] # Wayfarer: BaseSyndicateContraband<BaseBMContraband
   id: ClothingOuterHardsuitSyndieElite
-  name: coldlight environmental hardsuit # Wayfarer: Changed name
-  description: A specialized hardsuit lined with plasuranium plating, fireproofed, resistant to radiation and suited to withstand both environmental dangers as well as lasers. # Wayfarer: Changed description
+  name: old ops suit # Wayfarer: Changed name
+  description: A older hardsuit lined with plasuranium plating, fireproofed, resistant to radiation and suited to withstand both environmental dangers as well as lasers. You feel old looking at it. # Wayfarer: Changed description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi

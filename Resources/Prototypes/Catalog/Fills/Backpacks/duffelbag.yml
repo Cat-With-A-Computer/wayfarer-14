@@ -262,8 +262,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitBundle
-  name: coldlight hardsuit bundle # Wayfarer: Changed name
-  description: "Contains Coldlight's signature hardsuit."
+  name: spinel hardsuit bundle # Wayfarer: Changed name
+  description: "Contains a spinel hardsuit."
   # Wayfarer: Changed Description
   components:
   - type: StorageFill
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
-  name: coldlight environmental hardsuit bundle # Wayfarer: Changed name
-  description: "Contains coldlight's environmental hardsuit, which comes with some more stuff in it."
+  name: old ops bundle # Wayfarer: Changed name
+  description: "Contains an old-ops environmental hardsuit."
   # Wayfarer: Changed Description
   components:
   - type: StorageFill
