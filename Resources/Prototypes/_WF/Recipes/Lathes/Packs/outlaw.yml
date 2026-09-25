@@ -2,12 +2,20 @@
   id: WFDecryptStatic
   recipes:
 #  - RecipeDecryptLow
-  - RecipeDecryptIncendiaryAmmo
-  - RecipeDecryptUraniumAmmo
-  - RecipeDecryptC20
-  - RecipeDecryptAtreides
+  - RecipeDecryptEnergy
+  - RecipeDecryptSMG
+  - RecipeDecryptRifles
+  - RecipeDecryptLasers
+  - RecipeDecryptHeavy
+  - RecipeDecryptCannons
   - WFRecipeDecryptCannonAmmo
-
+  - RecipeDecryptOutlawAmmo
+  - RecipeDecryptJaws
+  - RecipeDecryptJammer
+  - RecipeDecryptMedical
+  - RecipeDecryptHyposprays
+  - RecipeDecryptVests
+  - RecipeDecryptArmor
 
 - type: latheRecipePack
   id: WFOutlawStatic
