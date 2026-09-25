@@ -53,7 +53,34 @@
     Plastic: 500
 
 - type: latheRecipe
-  parent: BaseWeaponRecipeLong
+  parent: BaseWeaponRecipeSidearm
+  id: NFWeaponRevolverPirateRecipe
+  result: NFWeaponRevolverPirate
+  materials:
+    Steel: 700
+    Wood: 400
+    Gold: 100
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: NFWeaponRevolverRitland45Recipe
+  result: NFWeaponRevolverRitland45
+  materials:
+    Steel: 1200
+    Plasteel: 200
+    Wood: 200
+    
+- type: latheRecipe
+  parent: BaseWeaponRecipe
+  id: NFWeaponRifleMusketRecipe
+  result: NFWeaponRifleMusket
+  materials:
+    Steel: 1800
+    Wood: 800
+    Plasteel: 300
+    
+- type: latheRecipe
+  parent: BaseWeaponRecipe
   id: NFWeaponSubMachineGunC20rRecipe
   result: NFWeaponSubMachineGunC20r
   materials:
@@ -143,6 +170,16 @@
     Plastic: 1000
     Plasteel: 2000
 
+- type: latheRecipe
+  parent: BaseWeaponRecipe
+  id: NFWeaponLauncherPirateCannonRecipe
+  result: NFWeaponLauncherPirateCannon
+  materials:
+    OutlawData: 1
+    Plasteel: 2000
+    Steel: 2000
+    Wood: 1000
+
 # Melee
 - type: latheRecipe
   parent: BaseWeaponRecipeMelee
@@ -199,6 +236,28 @@
     Plasma: 3000
     ReinforcedPlasmaGlass: 300
     
+- type: latheRecipe
+  parent: BaseWeaponRecipeMelee
+  id: ThrowingKnifeRecipe
+  result: ThrowingKnife
+  materials:
+    Steel: 200
+    Plastic: 100
+    
+- type: latheRecipe
+  parent: BaseWeaponRecipeMelee
+  id: ClothingHandsKnuckleDustersSyndicateRecipe
+  result: ClothingHandsKnuckleDustersSyndicate
+  materials:
+    Plasteel: 600
+    Steel: 600
+    Plasma: 200
+  
+- type: latheRecipe
+  parent: SecBreachingHammerCGP
+  id: SecBreachingHammerOutlawRecipe
+  result: SecBreachingHammer
+    
 # Cannon Ammo
 - type: latheRecipe
   parent: BaseAmmoRecipe
@@ -230,6 +289,16 @@
   result: NFCannonBallGrapeshot
   materials:
     Steel: 1500 
+
+# Ammo
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: NFMagazineShotgunDrumEmptyRecipe
+  result: NFMagazineShotgunDrumEmpty
+  materials:
+    Steel: 500
+    Plastic: 250
 
 # Ship Guns
 
@@ -275,6 +344,24 @@
     Plastic: 600
     Plasma: 200
     Uranium: 200
+
+- type: latheRecipe
+  parent: NFBaseToolsRecipe
+  id: PinpointerScannerRecipe
+  result: PinpointerScanner
+  materials:
+    Plastic: 200
+    Wood: 200
+    Silver: 100
+    Gold: 100
+    
+- type: latheRecipe
+  parent: NFBaseToolsRecipe
+  id: IonizedBluespaceDustBagRecipe
+  result: IonizedBluespaceDustBag
+  materials:
+    BluespaceCrystal: 100
+    Cloth: 200
 
 # Medical
 
@@ -373,17 +460,94 @@
 
 - type: latheRecipe
   parent: NFBaseArmorRecipe
-  id: ClothingOuterHardsuitSyndieEliteRecipe
-  result: ClothingOuterHardsuitSyndieElite
+  id: ClothingOuterEVASuitPirateRecipe
+  result: ClothingOuterEVASuitPirate
   materials:
-    OutlawData: 3
-    Durathread: 2000
-    Glass: 1000
+    Durathread: 500
+    Plastic: 300
+    Cloth: 300
+
+- type: latheRecipe
+  parent: NFBaseArmorRecipe
+  id: ClothingOuterOutlawHardsuitRecipe
+  result: ClothingOuterOutlawHardsuit
+  materials:
+    Durathread: 1000
+    Glass: 500
+    Plastic: 1000
+    Plasteel: 1000
+
+- type: latheRecipe
+  parent: ClothingOuterOutlawHardsuitRecipe
+  id: ClothingOuterHardsuitPirateCapRecipe
+  result: ClothingOuterHardsuitPirateCap
+
+- type: latheRecipe
+  parent: ClothingOuterOutlawHardsuitRecipe
+  id: ClothingOuterHardsuitRogueRecipe
+  result: ClothingOuterHardsuitRogue
+
+- type: latheRecipe
+  parent: NFBaseArmorRecipe
+  id: ClothingOuterOutlawHardsuitCombatRecipe
+  result: ClothingOuterOutlawHardsuitCombat
+  materials:
+    OutlawData: 1
+    Glass: 500
     Plastic: 2000
-    ReinforcedUraniumGlass: 1000
-    ReinforcedPlasmaGlass: 1000
-    Gold: 1000
+    Plasteel: 2000
+    Durathread: 2000
     Silver: 1000
+    Gold: 1000
+    
+- type: latheRecipe
+  parent: ClothingOuterOutlawHardsuitCombatRecipe
+  id: ClothingOuterHardsuitPirateEliteRecipe
+  result: ClothingOuterHardsuitPirateElite
+
+- type: latheRecipe
+  parent: NFBaseArmorRecipe
+  id: ClothingOuterArmorHeavyTacticalRecipe
+  result: ClothingOuterArmorHeavyTactical
+  materials:
+    Durathread: 3000
+    Plasteel: 1000
+
+- type: latheRecipe
+  parent: ClothingOuterVestWebRecipe
+  id: ClothingOuterArmorBulletproofBMRecipe
+  result: ClothingOuterArmorBulletproofBM
+ 
+- type: latheRecipe
+  parent: NFBaseArmorRecipe
+  id: ClothingHeadHelmetBMRecipe
+  result: ClothingHeadHelmetBM
+  materials:
+    Durathread: 500
+    Plasteel: 1000
+    Steel: 1000
+
+# Other wearables
+
+- type: latheRecipe
+  parent: NFBaseArmorRecipe
+  id: JetpackBMRecipe
+  result: JetpackBM
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Plastic: 500
+  
+- type: latheRecipe
+  parent: ClothingShoesBootsMagTacCGP
+  id: ClothingShoesBootsMagTacOutlawRecipe
+  result: ClothingShoesBootsMagTac
+
+- type: latheRecipe
+  parent: WFClothingMaskGasSheriff
+  id: ClothingMaskGasSyndicateRecipe
+  result: ClothingMaskGasSyndicate
+  
 
 # Blueprints
 
