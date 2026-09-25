@@ -433,7 +433,7 @@
     ReinforcedPlasmaGlass: 500
 
 - type: latheRecipe
-  parent: NFBaseArmorRecipe
+  parent: NFBaseHardSuitRecipe
   id: ClothingOuterHardsuitSyndieRecipe
   result: ClothingOuterHardsuitSyndie
   materials:
@@ -446,7 +446,7 @@
     Gold: 1000
 
 - type: latheRecipe
-  parent: NFBaseArmorRecipe
+  parent: NFBaseHardSuitRecipe
   id: ClothingOuterHardsuitSyndieMedicRecipe
   result: ClothingOuterHardsuitSyndieMedic
   materials:
@@ -459,7 +459,21 @@
     Gold: 1000
 
 - type: latheRecipe
-  parent: NFBaseArmorRecipe
+  parent: NFBaseHardSuitRecipe
+  id: ClothingOuterHardsuitSyndieEliteRecipe
+  result: ClothingOuterHardsuitSyndieElite
+  materials:
+    CGPCredit: 1
+    Glass: 1000
+    Plastic: 2000
+    Durathread: 2000
+    ReinforcedUraniumGlass: 1000
+    ReinforcedPlasmaGlass: 1000
+    Gold: 1000
+    Silver: 1000
+
+- type: latheRecipe
+  parent: NFBaseHardSuitRecipe
   id: ClothingOuterEVASuitPirateRecipe
   result: ClothingOuterEVASuitPirate
   materials:
@@ -468,7 +482,7 @@
     Cloth: 300
 
 - type: latheRecipe
-  parent: NFBaseArmorRecipe
+  parent: NFBaseHardSuitRecipe
   id: ClothingOuterOutlawHardsuitRecipe
   result: ClothingOuterOutlawHardsuit
   materials:
@@ -488,7 +502,7 @@
   result: ClothingOuterHardsuitRogue
 
 - type: latheRecipe
-  parent: NFBaseArmorRecipe
+  parent: NFBaseHardSuitRecipe
   id: ClothingOuterOutlawHardsuitCombatRecipe
   result: ClothingOuterOutlawHardsuitCombat
   materials:
