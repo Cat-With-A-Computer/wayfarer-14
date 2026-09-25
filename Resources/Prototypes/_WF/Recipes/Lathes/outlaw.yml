@@ -360,7 +360,7 @@
   id: IonizedBluespaceDustBagRecipe
   result: IonizedBluespaceDustBag
   materials:
-    BluespaceCrystal: 100
+    Bluespace: 100
     Cloth: 200
 
 # Medical
