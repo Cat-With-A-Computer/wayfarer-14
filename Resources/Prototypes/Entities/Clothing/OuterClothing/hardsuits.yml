@@ -648,9 +648,9 @@
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.25
+    damageCoefficient: 0.25 # Wayfarer: 0.2 < 0.25
   - type: FireProtection
-    reduction: 0.75
+    reduction: 0.75 # Wayfarer: 0.8 < 0.75
   - type: StaminaResistance # do not add these to other equipment or mobs, we don't want to microbalance these everywhere
     damageCoefficient: 0.6
   - type: Armor
@@ -659,9 +659,9 @@
         Blunt: 0.6
         Slash: 0.6
         Piercing: 0.6
-        Heat: 0.25
-        Radiation: 0.15
-        Caustic: 0.4
+        Heat: 0.3 # Wayfarer: 0.2 < 0.3
+        Radiation: 0.15 # Wayfarer: 0.01 < 0.15
+        Caustic: 0.4 # Wayfarer: 0.5 < 0.4
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier

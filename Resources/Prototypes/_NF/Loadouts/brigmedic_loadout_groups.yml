@@ -18,16 +18,7 @@
   loadouts:
   - BrigmedicOuterClothing
   - CGPPatrolSuitBrig # Wayfarer
-  
-- type: loadoutGroup
-  id: BrigmedicBackpack
-  name: loadout-group-contractor-backpack
-  minLimit: 0
-  loadouts:
-  - WFClothingBackpackBrigmedic
-  - WFClothingBackpackSatchelBrigmedic
-  - WFClothingBackpackDuffelBrigmedic
-  
+
 - type: loadoutGroup
   id: BrigmedicHead
   name: loadout-group-contractor-head
@@ -92,6 +83,7 @@
   fallbacks:
   - BrigmedicClothingBeltBrigmedicWebbing
 
+# Wayfarer Start
 - type: loadoutGroup
   id: WFBrigmedicBackpack
   name: loadout-group-contractor-backpack
@@ -108,6 +100,7 @@
   - NfsdClothingBackpackSatchelNfsdCream
   - NfsdClothingBackpackDuffelNfsdCream
   - NfsdClothingBackpackMessengerNfsdCream
-  - CGPClothingBackpackCGPCombat # Wayfarer
+  - CGPClothingBackpackCGPCombat
   fallbacks:
   - NfsdClothingBackpackSatchelNfsdBrown
+# Wayfarer End

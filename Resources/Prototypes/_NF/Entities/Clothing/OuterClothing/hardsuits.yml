@@ -245,7 +245,7 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.3
-  - type: FireProtection
+  - type: FireProtection # Wayfarer
     reduction: 0.70
   - type: Armor
     modifiers:
@@ -467,10 +467,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.4
-        Heat: 0.7
+        Blunt: 0.4 # Wayfarer: 0.6 < 0.4
+        Slash: 0.4 # Wayfarer: 0.6 < 0.4
+        Piercing: 0.4 # Wayfarer: 0.6 < 0.4
+        Heat: 0.7 # Wayfarer: 0.6 < 0.7
         Radiation: 0.5
         Caustic: 0.7
   - type: ClothingSpeedModifier
