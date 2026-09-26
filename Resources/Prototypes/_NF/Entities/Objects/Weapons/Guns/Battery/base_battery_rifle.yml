@@ -58,12 +58,12 @@
   abstract: true
   components:
   - type: Gun
+    # Wayfarer Start
     minAngle: 1
     maxAngle: 5
     angleIncrease: 0.5
     angleDecay: 2.6
     fireRate: 1.5
-    # Wayfarer Start
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 2.5
