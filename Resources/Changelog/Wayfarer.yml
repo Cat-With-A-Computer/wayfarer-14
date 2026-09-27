@@ -6757,3 +6757,14 @@ Entries:
   id: 7266
   time: '2026-09-27T15:52:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1607
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: Vulpkanin fox cry and normal cry are now separated
+    - type: Tweak
+      message: Vulpkanin gekker and normal laugh are now separated
+    - type: Tweak
+      message: Rodentia ferret laugh and normal laugh are now separated
+  id: 7267
+  time: '2026-09-27T16:08:30.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1613
