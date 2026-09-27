@@ -6775,3 +6775,10 @@ Entries:
   id: 7268
   time: '2026-09-27T16:14:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1614
+- author: Quill
+  changes:
+    - type: Add
+      message: Added new Tail, Ear and Chest Markings for Shadekins.
+  id: 7269
+  time: '2026-09-27T16:22:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1615
