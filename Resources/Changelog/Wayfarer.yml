@@ -6782,3 +6782,10 @@ Entries:
   id: 7269
   time: '2026-09-27T16:22:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1615
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: Commodore and SR now have encryption keys in their loadouts.
+  id: 7270
+  time: '2026-09-27T16:54:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1616
