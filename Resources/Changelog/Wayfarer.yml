@@ -6728,3 +6728,18 @@ Entries:
   id: 7263
   time: '2026-09-27T15:17:56.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1604
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: Syndicate armor has been renamed to fit theme of Zekke
+    - type: Tweak
+      message: >-
+        Made CGP combat suit faster, and nerfed coldlight environmental suit and
+        combat suit to at least match its speed
+    - type: Tweak
+      message: Brigmedic bags and satchels now have explosive resist
+    - type: Fix
+      message: Commodore headset now has encryption keys again
+  id: 7264
+  time: '2026-09-27T15:39:07.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1605
