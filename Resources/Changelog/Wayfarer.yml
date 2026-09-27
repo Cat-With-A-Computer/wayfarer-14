@@ -6743,3 +6743,10 @@ Entries:
   id: 7264
   time: '2026-09-27T15:39:07.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1605
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Outlaw Objective System.
+  id: 7265
+  time: '2026-09-27T15:46:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1606
