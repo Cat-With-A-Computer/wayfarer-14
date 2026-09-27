@@ -6715,3 +6715,16 @@ Entries:
   id: 7262
   time: '2026-09-27T15:13:51.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1597
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: LMG-6 and Turbo Laser now have a higher firerate
+    - type: Tweak
+      message: LMG-6 now has slowdown at all times while carried
+    - type: Tweak
+      message: A bunch of laser weapons received damage buffs
+    - type: Tweak
+      message: NGP-40 is now the GP-40, and is able to shoot all types of grenades
+  id: 7263
+  time: '2026-09-27T15:17:56.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1604
