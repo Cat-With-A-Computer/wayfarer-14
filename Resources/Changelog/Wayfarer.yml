@@ -6798,3 +6798,16 @@ Entries:
   id: 7271
   time: '2026-09-27T16:58:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1618
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: CGP techfab has had a lot more things added to it
+    - type: Add
+      message: Outlaw techfab has had a lot more things added to it
+    - type: Add
+      message: Outlaw Data Terminal may now print many more types of blueprints
+    - type: Tweak
+      message: Expedition blueprints are no longer contraband
+  id: 7272
+  time: '2026-09-27T17:14:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1619
