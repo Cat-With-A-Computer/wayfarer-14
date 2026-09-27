@@ -6789,3 +6789,12 @@ Entries:
   id: 7270
   time: '2026-09-27T16:54:47.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1616
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: >-
+        added a Bio-Reactor trait, that lets IPCs eat and drink. Consumed
+        substances have no effect.
+  id: 7271
+  time: '2026-09-27T16:58:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1618
