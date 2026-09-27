@@ -6750,3 +6750,10 @@ Entries:
   id: 7265
   time: '2026-09-27T15:46:42.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1606
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: Cargo market localization and food market regulations.
+  id: 7266
+  time: '2026-09-27T15:52:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1607
