@@ -6818,3 +6818,10 @@ Entries:
   id: 7273
   time: '2026-09-28T03:02:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1621
+- author: Feathernights
+  changes:
+    - type: Add
+      message: Added Carpade and its variants. Happy hydrating!
+  id: 7274
+  time: '2026-09-28T03:06:38.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1622
