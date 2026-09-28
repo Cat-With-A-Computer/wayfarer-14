@@ -6811,3 +6811,10 @@ Entries:
   id: 7272
   time: '2026-09-27T17:14:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1619
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: uplink coins fit into wallet
+  id: 7273
+  time: '2026-09-28T03:02:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1621
