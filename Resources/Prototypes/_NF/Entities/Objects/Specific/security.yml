@@ -30,7 +30,7 @@
 # Wayfarer: Add tag whitelist & ZekkeCredit
   - type: Tag
     tags:
-    - WhitelistWallet
+    - FitsWallet
     - ZekkeCredit
 # End Wayfarer
 
