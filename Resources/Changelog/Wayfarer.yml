@@ -6841,3 +6841,10 @@ Entries:
   id: 7276
   time: '2026-10-04T22:50:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1627
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: Icebox crafting
+  id: 7277
+  time: '2026-10-04T22:52:24.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1631
