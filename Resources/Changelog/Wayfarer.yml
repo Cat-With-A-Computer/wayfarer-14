@@ -6848,3 +6848,10 @@ Entries:
   id: 7277
   time: '2026-10-04T22:52:24.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1631
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: exploit money involving sex crate and svalinn
+  id: 7278
+  time: '2026-10-04T23:00:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1632
