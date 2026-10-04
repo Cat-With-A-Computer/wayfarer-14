@@ -6832,3 +6832,12 @@ Entries:
   id: 7275
   time: '2026-09-28T13:41:19.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1623
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Added Radio Broadcast Console Flatpack to the AutoTune vendor.
+    - type: Tweak
+      message: Lowered price of the radio receiver.
+  id: 7276
+  time: '2026-10-04T22:50:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1627
