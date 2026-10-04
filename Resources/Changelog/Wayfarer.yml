@@ -6862,3 +6862,10 @@ Entries:
   id: 7279
   time: '2026-10-04T23:07:32.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1633
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: Avali stomach organ
+  id: 7280
+  time: '2026-10-04T23:14:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1635
