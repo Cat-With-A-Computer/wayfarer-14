@@ -6869,3 +6869,10 @@ Entries:
   id: 7280
   time: '2026-10-04T23:14:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1635
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: folding sign, sprite done by Roy Aster
+  id: 7281
+  time: '2026-10-04T23:50:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1636
